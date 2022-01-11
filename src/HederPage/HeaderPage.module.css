@@ -1,0 +1,129 @@
+.col_sm_6 {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 64px;
+  box-shadow: 0px 4px 4px #e9e8f1;
+}
+.headerLogo {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+.imageHeader {
+  width: 100%;
+  max-width: 50px;
+  height: 100%;
+  max-height: 50px;
+  margin: 22px 7px 22px 0px;
+}
+.searchLogin {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btnHeader {
+  text-decoration: none;
+  color: black;
+  margin-right: auto;
+}
+.searchForm {
+  width: 70%;
+  margin: 0;
+}
+
+.formSearch {
+  width: 100%;
+  max-width: 500px;
+  background: no-repeat url('../components/imge/header/Vector.svg') scroll 7px 7px;
+  background-position: 1vw;
+  padding-left: 30px;
+  height: 40px;
+  border: 1px solid #acb8c2;
+  box-sizing: border-box;
+  border-radius: 4px;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin-right: auto;
+}
+.btnPrimary:hover {
+  color: #fff;
+  background-color: #33a0ff;
+  border-color: #f4f2f8;
+}
+.btn.focus,
+.btn:focus,
+.btn:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.btnPrimary {
+  color: #fff;
+  background-color: #221874;
+  border-color: #c0d9f0;
+}
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  width: 174px;
+  height: 46px;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+button,
+html input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button,
+select {
+  text-transform: none;
+}
+button {
+  overflow: visible;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}

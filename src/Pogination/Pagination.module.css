@@ -1,0 +1,41 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 953px;
+  height: 56px;
+  background-color: #fafafb;
+}
+.pageItem {
+  text-align: center;
+  padding: 16px 25.5px 18px;
+  width: 62px;
+  height: 56px;
+}
+
+.pageLink {
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  color: #000;
+}
+.pageItem__active:hover {
+  color: #fff;
+  background-color: #33a0ff;
+  border-color: #f4f2f8;
+}
+.pageLink.focus,
+.pageLink:focus,
+.pageLink:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.pageItem__active {
+  color: #fff;
+  background-color: #221874;
+  border-color: #c0d9f0;
+}
+.paginationPost {
+  color: black;
+
+}
